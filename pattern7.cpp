@@ -1,0 +1,1 @@
+// Pattern - 7: Star Pyramid
