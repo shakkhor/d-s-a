@@ -1,4 +1,4 @@
-// Pattern - 7: Star Pyramid
+//Pattern - 8: Inverted Star 
 
 #include<stdio.h>
 #include <string>
@@ -9,13 +9,15 @@ int main () {
     int n;
     cin>>n;
 
-    for(int i = 1; i <= n ; i++) {
-        for(int j = n; j>=i; j--) {
+    for(int i = n; i >= 1; i--) {
+        for(int j = i; j<n; j++) {
             cout<<" ";
         }
+        
         for(int k = 1; k < i * 2; k++) {
             cout<<"*";
         }
+        
 
         cout<<endl;
     }

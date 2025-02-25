@@ -1,0 +1,1 @@
+//Pattern - 10: Half Diamond Star Pattern
