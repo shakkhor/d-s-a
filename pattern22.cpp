@@ -23,9 +23,6 @@ void hollowRectangle(int n)
         }
         cout<<endl;
     }
-
-
-
     
 }
 
